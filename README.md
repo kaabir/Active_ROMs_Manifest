@@ -39,6 +39,8 @@ https://github.com/crdroidandroid/android
 # D
 https://github.com/DotOS/manifest
 
+https://github.com/DirtyUnicorns/android_manifest
+
 # F
 https://github.com/FireHound/platform_manifest
 
@@ -66,11 +68,14 @@ https://github.com/MiracleDROID/android
 # N
 https://github.com/nitrogen-project/android_manifest
 
-https://github.com/Nitrogen-Potter/manifest
-
 https://github.com/NucleaRom/android
 
+# O
+https://github.com/omnirom/android
+
 # P
+https://github.com/PixelExperience/manifest
+
 https://github.com/pixeldustproject-o/manifest
 
 https://github.com/Project-Xtended/manifest
