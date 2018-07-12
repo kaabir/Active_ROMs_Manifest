@@ -59,8 +59,6 @@ https://github.com/Havoc-OS/android_manifest
 # I
 https://github.com/InvictrixRom/manifest
 
-# K
-https://github.com/KAOSP/platform_manifest
 
 # L
 https://github.com/LineageOS/android
