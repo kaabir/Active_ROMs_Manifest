@@ -34,13 +34,13 @@ https://github.com/ColtOS/manifest
 
 https://github.com/Cosmic-OS/platform_manifest
 
-https://github.com/crdroidandroid/android/tree/7.1
+https://github.com/crdroidandroid/android
 
 # D
-https://github.com/DotOS/manifest/tree/dot-n
+https://github.com/DotOS/manifest
 
 # F
-https://github.com/FireHound/platform_manifest/tree/7.1
+https://github.com/FireHound/platform_manifest
 
 https://github.com/FrankenRom/android_manifest
 
