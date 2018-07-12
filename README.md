@@ -54,8 +54,6 @@ https://github.com/GZOSP/manifest
 # H
 https://github.com/Havoc-OS/android_manifest
 
-https://github.com/HolyDragonProject
-
 # K
 https://github.com/KAOSP/platform_manifest
 
@@ -74,6 +72,10 @@ https://github.com/NucleaRom/android
 
 # O
 https://github.com/omnirom/android
+
+https://github.com/mTresk/android #OMNI ROM MOD
+
+https://github.com/HolyDragonProject #OMNI ROM MOD
 
 # P
 https://github.com/PixelExperience/manifest
