@@ -30,6 +30,8 @@ https://github.com/CandyRoms/candy
 
 https://github.com/CarbonROM/android
 
+https://github.com/Cardinal-AOSP/manifest
+
 https://github.com/Citrus-CAF/manifest
 
 https://github.com/ColtOS/manifest
@@ -60,6 +62,8 @@ https://github.com/KAOSP/platform_manifest
 # L
 https://github.com/LineageOS/android
 
+https://github.com/LiquidRemix/android_manifest
+
 https://github.com/LLuviaOS/platform_manifest
 
 # M
@@ -81,6 +85,8 @@ https://github.com/HolyDragonProject #OMNI ROM MOD
 https://github.com/PixelExperience/manifest
 
 https://github.com/pixeldustproject-o/manifest
+
+https://github.com/PotatoProject/manifest
 
 https://github.com/Project-Xtended/manifest
 
