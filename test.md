@@ -58,14 +58,30 @@ To build:
 # AOSP-CAF
 https://github.com/AOSP-CAF/platform_manifest
 
+Repo init & Sync command:
+
+	repo init -u https://github.com/AOSP-CAF/platform_manifest.git -b o-mr1 && repo sync -c -f -j48 --force-sync --no-clone-bundle --no-tags
+
+To build:
+
+	. build/envsetup.sh && lunch aosp_potter-userdebug && make -j48 otapackage
+
 # AOSiP
 https://github.com/AOSiP/platform_manifest
+
+Repo init & Sync command:
+
+	repo init -u git://github.com/AOSiP/platform_manifest.git -b oreo-mr1 && repo sync -c -f -j48 --force-sync --no-clone-bundle --no-tags
+
+To build:
+
+	source build/envsetup.sh && lunch aosip_potter-userdebug && time mka kronic
 
 # AOSPA
 https://github.com/AOSPA/manifest
 
 # AquariOS
-https://github.com/AquariOS/manifest #Using 8.1.0-CAF here(SSH keys to be added)
+https://github.com/AquariOS/manifest #Using 8.1.0-CAF here(SSH key to be added)
 
 Repo init & Sync command: 
 
