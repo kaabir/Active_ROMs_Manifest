@@ -1,7 +1,7 @@
 # Active ROMs Manifest
 # A
 # ABC Kanged
-https://github.com/ABCrom-Xiaomi/abc_manifest
+https://github.com/ABC-KANG/abc_manifest
 
 Repo init & Sync command:
 
