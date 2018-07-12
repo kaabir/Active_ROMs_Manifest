@@ -73,123 +73,122 @@ https://github.com/BootleggersROM/manifest
 # Candy
 https://github.com/CandyRoms/candy
 
-# 
+# CarbonROM
 https://github.com/CarbonROM/android
 
-# 
+# Cardinal-AOSP
 https://github.com/Cardinal-AOSP/manifest
 
-# 
+# Citrus-CAF
 https://github.com/Citrus-CAF/manifest
 
-# 
+# ColtOS
 https://github.com/ColtOS/manifest
 
-# 
+# Cosmic-OS
 https://github.com/Cosmic-OS/platform_manifest
 
-# 
+# crdroidandroid
 https://github.com/crdroidandroid/android
 
 # D
-# 
+# DotOS
 https://github.com/DotOS/manifest
 
-# 
+# DirtyUnicorns
 https://github.com/DirtyUnicorns/android_manifest
 
 # F
-# 
+# FireHound
 https://github.com/FireHound/platform_manifest
 
-# 
+# FrankenRom
 https://github.com/FrankenRom/android_manifest
 
 # G
-# 
+# GZOSP
 https://github.com/GZOSP/manifest
 
 # H
-# 
+# Havoc-OS
 https://github.com/Havoc-OS/android_manifest
 
 # I
-# 
+# InvictrixRom
 https://github.com/InvictrixRom/manifest
 
 # L
-# 
+# LineageOS
 https://github.com/LineageOS/android
 
-# 
+# LiquidRemix
 https://github.com/LiquidRemix/android_manifest
 
-# 
+# LLuviaOS
 https://github.com/LLuviaOS/platform_manifest
 
 # M
-# 
+# MiracleDROID
 https://github.com/MiracleDROID/android
 
 # N
-# 
+# Nitrogen-project
 https://github.com/nitrogen-project/android_manifest
 
-# 
+# NucleaRom
 https://github.com/NucleaRom/android
 
 # O
-# 
+# Omnirom
 https://github.com/omnirom/android
 
-# 
+# mTresk
 https://github.com/mTresk/android #OMNI ROM MOD
 
-# 
+# HolyDragonProject
 https://github.com/HolyDragonProject #OMNI ROM MOD
 
 # P
-# 
+# PixelExperience
 https://github.com/PixelExperience/manifest
 
-# 
+# Pixeldustproject-o
 https://github.com/pixeldustproject-o/manifest
 
-# 
+# PotatoProject
 https://github.com/PotatoProject/manifest
 
-# 
+# Project-Xtended
 https://github.com/Project-Xtended/manifest
 
 # R
-# 
+# ResurrectionRemix
 https://github.com/ResurrectionRemix/platform_manifest
 
 # S
-# 
+# ScrewdAOSP
 https://github.com/ScrewdAOSP/manifest
 
-# 
+# SlimRoms
 https://github.com/SlimRoms/platform_manifest
 
-# 
-https://github.com/SudaMod/android
+# SudaMod
+https://github.com/SudaMod/android #LOS MOD
 
 # T
-# 
+# TeamHorizon (XenonHD)
 https://github.com/TeamHorizon/platform_manifest
 
-# 
-https://github.com/TipsyOs/platform_manifest
-
-# 
-https://github.com/ToxycOS/android_manifest
-
-# U
-# 
+# Team (UB)
 https://github.com/abun880007/android #Team (UB)
 
-# 
+# TipsyOs
+https://github.com/TipsyOs/platform_manifest
+
+# TipsyOs
+https://github.com/ToxycOS/android_manifest
+
+# UnholyDevs
 https://github.com/UnholyDevs
 
 # V
