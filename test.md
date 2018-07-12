@@ -47,6 +47,14 @@ To build:
 # AOKP
 https://github.com/AOKP/platform_manifest
 
+Repo init & Sync command:
+
+	repo init -u https://github.com/AOKP/platform_manifest.git -b oreo && repo sync -c -f -j48 --force-sync --no-clone-bundle --no-tags
+
+To build:
+
+	. build/envsetup.sh && lunch aokp_potter-userdebug && mka rainbowfarts
+
 # AOSP-CAF
 https://github.com/AOSP-CAF/platform_manifest
 
@@ -57,7 +65,15 @@ https://github.com/AOSiP/platform_manifest
 https://github.com/AOSPA/manifest
 
 # AquariOS
-https://github.com/AquariOS/manifest
+https://github.com/AquariOS/manifest #Using 8.1.0-CAF here(SSH keys to be added)
+
+Repo init & Sync command: 
+
+	repo init -u https://github.com/aquarios/manifest -b a8.1.0-caf && repo sync -f -c --force-sync --no-clone-bundle -j48 --no-tags
+
+To build:
+
+	. build/envsetup.sh && lunch aquarios_potter-userdebug && mka bacon -j48
 
 # Atomic-OS
 https://github.com/Atomic-OS/platform_manifest
@@ -68,6 +84,14 @@ https://github.com/BenzoRom/manifest
 
 # BootleggersROM
 https://github.com/BootleggersROM/manifest
+
+Repo init & Sync command: 
+
+	repo init -u https://github.com/BootleggersROM/manifest.git -b oreo.1 && repo sync -f --force-sync --no-clone-bundle -j48
+
+To build:
+
+	source build/envsetup.sh && lunch bootleg_potter-userdebug && mka bacon -j48
 
 # C
 # Candy
@@ -126,6 +150,13 @@ https://github.com/LiquidRemix/android_manifest
 
 # LLuviaOS
 https://github.com/LLuviaOS/platform_manifest
+
+Repo init & Sync command:
+
+	repo init -u https://github.com/LLuviaOS/platform_manifest -b 8.1 && repo sync --force-sync -j48 --no-tags --no-clone-bundle
+To build:
+
+	. build/envsetup.sh && lunch lluvia_potter-userdebug && mka bacon -j48
 
 # M
 # MiracleDROID
@@ -217,6 +248,14 @@ https://github.com/abun880007/android #Team (UB)
 
 # TipsyOs
 https://github.com/TipsyOs/platform_manifest
+
+Repo init & Sync command:
+
+	repo init -u git://github.com/TipsyOs/platform_manifest.git -b 8.1 && repo sync -c -f -j48 --force-sync --no-clone-bundle --no-tags
+
+To build:
+
+	. build/envsetup.sh && lunch tipsy_potter-userdebug && make tipsy -j48
 
 # ToxycOS
 https://github.com/ToxycOS/android_manifest
