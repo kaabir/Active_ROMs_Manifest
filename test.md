@@ -131,6 +131,14 @@ https://github.com/LLuviaOS/platform_manifest
 # MiracleDROID
 https://github.com/MiracleDROID/android
 
+Repo init & Sync command:
+
+	repo init -u https://github.com/MiracleDROID/android -b android-8.1 && repo sync -f -c -j48 --force-sync --no-clone-bundle --no-tags
+
+To build:
+
+	. build/envsetup.sh && lunch mdroid_potter-userdebug && make bacon -j48
+
 # N
 # Nitrogen-project
 https://github.com/nitrogen-project/android_manifest
@@ -144,6 +152,15 @@ https://github.com/omnirom/android
 
 # mTresk
 https://github.com/mTresk/android #OMNI ROM MOD
+
+Repo init & Sync command:
+
+	repo init -u git://github.com/mtresk/android.git -b android-8.1 && repo sync -f -c --force-sync --no-clone-bundle -j48 --no-tags
+
+To build:
+
+	. build/envsetup.sh && brunch potter
+
 
 # HolyDragonProject
 https://github.com/HolyDragonProject #OMNI ROM MOD
@@ -161,6 +178,14 @@ https://github.com/PotatoProject/manifest
 # Project-Xtended
 https://github.com/Project-Xtended/manifest
 
+Repo init & Sync command:
+
+	repo init -u https://github.com/Project-Xtended/manifest.git -b xtended && repo sync -f -c -j48 --force-sync --no-clone-bundle --no-tags
+
+To build:
+
+	. build/envsetup.sh && lunch xtended_potter-userdebug && mka bacon -j48
+
 # R
 # ResurrectionRemix
 https://github.com/ResurrectionRemix/platform_manifest
@@ -175,6 +200,14 @@ https://github.com/SlimRoms/platform_manifest
 # SudaMod
 https://github.com/SudaMod/android #LOS MOD
 
+Repo init & Sync command:
+
+	repo init -u git://github.com/SudaMod/android.git -b sm-4.1 && repo sync -c -f -j48 --force-sync --no-clone-bundle
+
+To build:
+
+	. build/envsetup.sh && brunch potter
+
 # T
 # TeamHorizon (XenonHD)
 https://github.com/TeamHorizon/platform_manifest
@@ -185,8 +218,16 @@ https://github.com/abun880007/android #Team (UB)
 # TipsyOs
 https://github.com/TipsyOs/platform_manifest
 
-# TipsyOs
+# ToxycOS
 https://github.com/ToxycOS/android_manifest
+
+Repo init & Sync command:
+
+	repo init -u https://github.com/ToxycOS/android_manifest -b oreo-mr1 && repo sync -c -f -j48 --force-sync --no-clone-bundle --no-tags
+
+To build:
+
+	. build/envsetup.sh && lunch toxyc_potter-userdebug && mka bacon
 
 # UnholyDevs
 https://github.com/UnholyDevs
