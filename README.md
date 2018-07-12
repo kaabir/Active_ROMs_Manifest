@@ -95,6 +95,8 @@ https://github.com/SudaMod/android
 # T
 https://github.com/TeamHorizon/platform_manifest
 
+https://github.com/TipsyOs/platform_manifest
+
 https://github.com/ToxycOS/android_manifest
 
 # U
