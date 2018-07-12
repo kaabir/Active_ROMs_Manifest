@@ -2,6 +2,8 @@
 # A
 https://github.com/ABCrom-Xiaomi/abc_manifest
 
+https://github.com/ezio84/abc_manifest #ABC ezio84
+
 https://github.com/AospExtended/manifest
 
 https://github.com/AICP/platform_manifest
