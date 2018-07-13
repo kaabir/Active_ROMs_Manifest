@@ -80,6 +80,14 @@ To build:
 # AOSPA
 https://github.com/AOSPA/manifest
 
+Repo init & Sync command:
+
+	repo init -u https://github.com/AOSPA/manifest -b oreo-mr1 && repo sync -c -f -j48 --force-sync --no-clone-bundle --no-tags
+
+To build:
+
+	./rom-build.sh potter
+
 # AquariOS
 https://github.com/AquariOS/manifest #Using 8.1.0-CAF here(SSH key to be added)
 
@@ -94,9 +102,25 @@ To build:
 # Atomic-OS
 https://github.com/Atomic-OS/platform_manifest
 
+Repo init & Sync command: 
+
+	repo init -u https://github.com/Atomic-OS/platform_manifest.git -b oreo && repo sync -f -c --force-sync --no-clone-bundle -j48 --no-tags
+
+To build:
+
+	. build/envsetup.sh && lunch aos_potter-userdebug && mka atomic
+
 # B
 # BenzoRom
 https://github.com/BenzoRom/manifest
+
+Repo init & Sync command: 
+
+	repo init -u git://github.com/BenzoRom/manifest.git -b eightone && repo sync -f -c --force-sync --no-clone-bundle -j48 --no-tags
+
+To build:
+
+	. build/envsetup.sh && lunch benzo_potter-userdebug && mka bacon -j48
 
 # BootleggersROM
 https://github.com/BootleggersROM/manifest
@@ -113,11 +137,38 @@ To build:
 # Candy
 https://github.com/CandyRoms/candy
 
+Repo init & Sync command: 
+
+	repo init -u https://github.com/CandyRoms/candy.git -b c8.1 && repo sync -f -c --force-sync --no-clone-bundle -j48 --no-tags
+
+To build:
+
+	. build/envsetup.sh && lunch candy_potter-userdebug && mka bacon -j48
+
+
 # CarbonROM
 https://github.com/CarbonROM/android
 
+Repo init & Sync command: 
+
+	repo init -u https://github.com/CarbonROM/android.git -b cr-6.1 && repo sync -f -c --force-sync --no-clone-bundle -j48 --no-tags
+
+To build:
+
+	. build/envsetup.sh && lunch carbon_potter-userdebug && make carbon -j48
+
+
 # Cardinal-AOSP
 https://github.com/Cardinal-AOSP/manifest
+
+Repo init & Sync command: 
+
+	repo init -u https://github.com/Atomic-OS/platform_manifest.git -b oreo && repo sync -f -c --force-sync --no-clone-bundle -j48 --no-tags
+
+To build:
+
+	. build/envsetup.sh && lunch aos_potter-userdebug && mka atomic
+
 
 # Citrus-CAF
 https://github.com/Citrus-CAF/manifest
