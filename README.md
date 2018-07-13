@@ -212,15 +212,48 @@ To build:
 # HolyDragonProject
 https://github.com/HolyDragonProject #OMNI ROM MOD
 
+Repo init & Sync command:
+
+	repo init -u https://gitlab.com/holydragonproject/android.git -b hdo && repo sync -f -c -j48 --force-sync --no-clone-bundle --no-tags
+
+To build:
+
+	. build/envsetup.sh && brunch potter
+
 # P
 # PixelExperience
 https://github.com/PixelExperience/manifest
 
+Repo init & Sync command:
+
+	repo init -u https://github.com/PixelExperience/manifest -b oreo-mr1 && repo sync -f -c -j48 --force-sync --no-clone-bundle --no-tags
+
+To build:
+
+	. build/envsetup.sh && lunch aosp_potter-userdebug && mka bacon -j48
+
 # Pixeldustproject-o
 https://github.com/pixeldustproject-o/manifest
 
+
+Repo init & Sync command:
+
+	repo init -u https://github.com/pixeldustproject-o/manifest.git -b o2 && repo sync -f -c -j48 --force-sync --no-clone-bundle --no-tags
+
+To build:
+
+	. build/envsetup.sh && lunch pixeldust_potter-userdebug && make pixeldust -j48
+
 # PotatoProject
 https://github.com/PotatoProject/manifest
+
+Repo init & Sync command:
+
+	repo init -u https://github.com/PotatoProject/manifest -b aligot-release && repo sync -f -c -j48 --force-sync --no-clone-bundle --no-tags
+
+To build:
+
+	.source build/envsetup.sh && add_lunch_combo potato_potter-userdebug && brunch potter
 
 # Project-Xtended
 https://github.com/Project-Xtended/manifest
