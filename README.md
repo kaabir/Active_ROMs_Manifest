@@ -172,6 +172,15 @@ To build:
 # Citrus-CAF
 https://github.com/Citrus-CAF/manifest
 
+
+Repo init & Sync command: 
+
+	repo init -u git://github.com/Citrus-CAF/manifest.git -b o8x -m citrus-caf.xml && repo sync -f -c --force-sync --no-clone-bundle -j48 --no-tags
+
+To build:
+
+	. build/envsetup.sh && lunch citrus_potter-userdebug && mka lemonade -j48
+
 # ColtOS
 https://github.com/ColtOS/manifest
 
