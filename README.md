@@ -194,8 +194,24 @@ To build:
 # Cosmic-OS
 https://github.com/Cosmic-OS/platform_manifest
 
+Repo init & Sync command: 
+
+	repo init -u https://github.com/Cosmic-OS/platform_manifest.git -b pulsar-release && repo sync -f -c --force-sync --no-clone-bundle -j48 --no-tags
+
+To build:
+
+	. build/envsetup.sh && lunch cos_potter-userdebug && brunch potter
+
 # crdroidandroid
 https://github.com/crdroidandroid/android
+
+Repo init & Sync command: 
+
+	repo init -u git://github.com/crdroidandroid/android.git -b 8.1 && repo sync -f -c --force-sync --no-clone-bundle -j48 --no-tags
+
+To build:
+
+	. build/envsetup.sh && brunch potter
 
 # D
 # DotOS
