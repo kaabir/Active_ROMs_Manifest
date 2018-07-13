@@ -163,12 +163,11 @@ https://github.com/Cardinal-AOSP/manifest
 
 Repo init & Sync command: 
 
-	repo init -u https://github.com/Atomic-OS/platform_manifest.git -b oreo && repo sync -f -c --force-sync --no-clone-bundle -j48 --no-tags
+	repo init -u git://github.com/Cardinal-AOSP/manifest.git -b oreo-mr1 -m crd.xml && repo sync -f -c --force-sync --no-clone-bundle -j48 --no-tags
 
 To build:
 
-	. build/envsetup.sh && lunch aos_potter-userdebug && mka atomic
-
+	. build/envsetup.sh && lunch cardinal_potter-userdebug && mka bacon -j48
 
 # Citrus-CAF
 https://github.com/Citrus-CAF/manifest
