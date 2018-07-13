@@ -172,7 +172,6 @@ To build:
 # Citrus-CAF
 https://github.com/Citrus-CAF/manifest
 
-
 Repo init & Sync command: 
 
 	repo init -u git://github.com/Citrus-CAF/manifest.git -b o8x -m citrus-caf.xml && repo sync -f -c --force-sync --no-clone-bundle -j48 --no-tags
@@ -207,6 +206,14 @@ https://github.com/FrankenRom/android_manifest
 # G
 # GZOSP
 https://github.com/GZOSP/manifest
+
+Repo init & Sync command: 
+
+	repo init -u https://github.com/GZOSP/manifest.git -b 8.1 && repo sync -f -c --force-sync --no-clone-bundle -j48 --no-tags
+
+To build:
+
+	. build/envsetup.sh && brunch potter
 
 # H
 # Havoc-OS
@@ -382,3 +389,12 @@ https://github.com/UnholyDevs
 # V
 # Validus
 https://github.com/ValidusOs/manifest
+
+
+Repo init & Sync command:
+
+	repo init -u https://github.com/ValidusOs/manifest.git -b 8.1 && repo sync -c -f -j48 --force-sync --no-clone-bundle --no-tags
+
+To build:
+
+	. build/envsetup.sh &&  brunch potter
