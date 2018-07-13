@@ -181,7 +181,15 @@ To build:
 	. build/envsetup.sh && lunch citrus_potter-userdebug && mka lemonade -j48
 
 # ColtOS
-https://github.com/ColtOS/manifest
+https://github.com/Colt-AOSP/platform_manifest
+
+Repo init & Sync command: 
+
+	repo init -u git://github.com/Colt-AOSP/platform_manifest.git -b cos8.x && repo sync -f -c --force-sync --no-clone-bundle -j48 --no-tags
+
+To build:
+
+	. build/envsetup.sh && brunch potter
 
 # Cosmic-OS
 https://github.com/Cosmic-OS/platform_manifest
