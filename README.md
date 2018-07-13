@@ -366,6 +366,14 @@ To build:
 # TeamHorizon (XenonHD)
 https://github.com/TeamHorizon/platform_manifest
 
+Repo init & Sync command:
+
+	repo init -u https://github.com/TeamHorizon/platform_manifest.git -b o && repo sync -c -f -j48 --force-sync --no-clone-bundle
+
+To build:
+
+	. build/envsetup.sh && brunch potter
+	
 # Team (UB)
 https://github.com/abun880007/android #Team (UB)
 
@@ -393,6 +401,14 @@ To build:
 
 # UnholyDevs
 https://github.com/UnholyDevs
+
+Repo init & Sync command:
+
+	repo init -u https://github.com/UnholyDevs/manifest.git -b o81 && repo sync -c -f -j48 --force-sync --no-clone-bundle --no-tags
+
+To build:
+
+	. build/envsetup.sh && brunch potter
 
 # V
 # Validus
