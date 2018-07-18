@@ -275,16 +275,52 @@ To build:
 # Havoc-OS
 https://github.com/Havoc-OS/android_manifest
 
+
+Repo init & Sync command: 
+
+	repo init -u https://github.com/Havoc-OS/android_manifest.git -b oreo && repo sync -f -c --force-sync --no-clone-bundle -j48 --no-tags
+
+To build:
+
+	. build/envsetup.sh && brunch potter
+
 # I
 # InvictrixRom
 https://github.com/InvictrixRom/manifest
+
+
+Repo init & Sync command: 
+
+	repo init -u https://github.com/GZOSP/manifest.git -b 8.1 && repo sync -f -c --force-sync --no-clone-bundle -j48 --no-tags
+
+To build:
+
+	. build/envsetup.sh && brunch potter
 
 # L
 # LineageOS
 https://github.com/LineageOS/android
 
+
+Repo init & Sync command: 
+
+	repo init -u git://github.com/LineageOS/android.git -b lineage-15.1 && repo sync -f -c --force-sync --no-clone-bundle -j48 --no-tags
+
+To build:
+
+	source build/envsetup.sh && lunch lineage_potter-userdebug && mka bacon -j48
+
 # LiquidRemix
 https://github.com/LiquidRemix/android_manifest
+
+
+Repo init & Sync command: 
+
+	repo init -u git://github.com/LiquidRemix/android_manifest.git -b oc-mr2 && repo sync -f -c --force-sync --no-clone-bundle -j48 --no-tags
+
+To build:
+
+	. build/envsetup.sh && breakfast potter && time mka liquid
 
 # LLuviaOS
 https://github.com/LLuviaOS/platform_manifest
@@ -312,12 +348,36 @@ To build:
 # Nitrogen-project
 https://github.com/nitrogen-project/android_manifest
 
+Repo init & Sync command:
+
+	repo init -u https://github.com/nitrogen-project/android_manifest.git -b o2 && repo sync -f -c -j48 --force-sync --no-clone-bundle --no-tags
+
+To build:
+
+	. build/envsetup.sh && lunch nitrogen_potter-userdebug && make -j48 otapackage
+
 # NucleaRom
 https://github.com/NucleaRom/android
+
+Repo init & Sync command:
+
+	repo init -u git://github.com/NucleaRom/android.git -b nuclear-o && repo sync -f -c -j48 --force-sync --no-clone-bundle --no-tags
+
+To build:
+
+	. build/envsetup.sh && brunch nr_potter-userdebug
 
 # O
 # Omnirom
 https://github.com/omnirom/android
+
+Repo init & Sync command:
+
+	repo init -u git://github.com/omnirom/android.git -b android-8.1 && repo sync -f -c -j48 --force-sync --no-clone-bundle --no-tags
+
+To build:
+
+	. build/envsetup.sh && brunch potter
 
 # mTresk
 https://github.com/mTresk/android #OMNI ROM MOD
