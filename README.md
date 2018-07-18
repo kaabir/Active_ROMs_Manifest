@@ -217,15 +217,47 @@ To build:
 # DotOS
 https://github.com/DotOS/manifest
 
+Repo init & Sync command: 
+
+	repo init -u git://github.com/DotOS/manifest.git -b dot-o && repo sync -f -c --force-sync --no-clone-bundle -j48 --no-tags
+
+To build:
+
+	. build/envsetup.sh && lunch dot_potter && brunch potter
+
 # DirtyUnicorns
 https://github.com/DirtyUnicorns/android_manifest
+
+Repo init & Sync command: 
+
+	repo init -u https://github.com/DirtyUnicorns/android_manifest.git -b o8x-caf && repo sync -f -c --force-sync --no-clone-bundle -j48 --no-tags
+
+To build:
+
+	. build/envsetup.sh && breakfast potter && mka bacon
 
 # F
 # FireHound
 https://github.com/FireHound/platform_manifest
 
+Repo init & Sync command: 
+
+	repo init -u git://github.com/FireHound/platform_manifest.git -b o8.1 && repo sync -f -c --force-sync --no-clone-bundle -j48 --no-tags
+
+To build:
+
+	. build/envsetup.sh && brunch fh_potter-userdebug
+
 # FrankenRom
 https://github.com/FrankenRom/android_manifest
+
+Repo init & Sync command: 
+
+	repo init -u git://github.com/FrankenRom/android_manifest.git -b oc-mr1 && repo sync -f -c --force-sync --no-clone-bundle -j48 --no-tags
+
+To build:
+
+	. build/envsetup.sh && breakfast potter && time mka liquid
 
 # G
 # GZOSP
