@@ -452,12 +452,36 @@ To build:
 # ResurrectionRemix
 https://github.com/ResurrectionRemix/platform_manifest
 
+Repo init & Sync command:
+
+	repo init -u https://github.com/ResurrectionRemix/platform_manifest.git -b oreo && repo sync -c -f -j48 --force-sync --no-clone-bundle
+
+To build:
+
+	. build/envsetup.sh && brunch potter
+
 # S
 # ScrewdAOSP
-https://github.com/ScrewdAOSP/manifest
+https://github.com/ScrewdAOSP/manifest #CAF Branch
+
+Repo init & Sync command:
+
+	repo init -u https://github.com/ScrewdAOSP/manifest -b o8x-caf && repo sync -c -f -j48 --force-sync --no-clone-bundle
+
+To build:
+
+	./rom-build.sh potter
 
 # SlimRoms
 https://github.com/SlimRoms/platform_manifest
+
+Repo init & Sync command:
+
+	repo init -u git://github.com/SlimRoms/platform_manifest.git -b or8.1 && repo sync -c -f -j48 --force-sync --no-clone-bundle
+
+To build:
+
+	. build/envsetup.sh && brunch potter
 
 # SudaMod
 https://github.com/SudaMod/android #LOS MOD
@@ -484,6 +508,15 @@ To build:
 	
 # Team (UB)
 https://github.com/abun880007/android #Team (UB)
+
+
+Repo init & Sync command:
+
+	repo init -u git://github.com/Team-UB/android.git -b TUB-Oreo && repo sync -c -f -j48 --force-sync --no-clone-bundle
+
+To build:
+
+	. build/envsetup.sh && brunch potter
 
 # TipsyOs
 https://github.com/TipsyOs/platform_manifest
