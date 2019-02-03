@@ -1,6 +1,6 @@
 # Active ROMs Manifest For Android Pie
  
-You can replace <Potter> with your Device Codename 
+You can replace Potter with your Device Codename 
 # A
 # ABC
 https://github.com/ezio84/abc_manifest
@@ -11,7 +11,7 @@ Repo init & Sync command:
 
 To build:
 
-	. build/envsetup.sh && lunch abc_potter-userdebug && mka bacon -j24
+	. build/envsetup.sh && lunch abc_potter-userdebug && mka bacon -j48
 	
 # AospExtended
 https://github.com/AospExtended/manifest
